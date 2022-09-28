@@ -6,7 +6,7 @@
 index = int(input(
     "How many words would you like to add to the list? Hint: the answer is 5\n"))
 if index != 5:
-    print("The answer is 5, run the program to try again!")
+    "The answer is 5, run the program to try again!"
     exit
 else:
     words = []
