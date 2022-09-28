@@ -24,5 +24,7 @@ print(words, "\n")  # Prints the list
 # Reverses the list using slicing and saves it in the variable "reversed_words"
 reversed_words = words[::-1]
 
-
 print(reversed_words)
+
+print("word type", type(words))
+print("reversed_words type", type(reversed_words))
