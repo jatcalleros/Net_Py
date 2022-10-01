@@ -4,5 +4,5 @@
 table = int(input("Enter the multiplication table: \n"))
 limit = int(input("Up to what number?: \n"))
 
-for i in range(0, limit):
+for i in range(0, limit + 1):
     print("{} x {} = {}".format(i, table, i*table))
