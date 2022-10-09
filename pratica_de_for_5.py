@@ -9,4 +9,4 @@ t = int(input("How many years do you wish invest? \n"))
 for i in range(0, t):
     interest = P * .06
     P = P + interest
-    print(P)
+    print("Year {}:".format(i+1), P)
